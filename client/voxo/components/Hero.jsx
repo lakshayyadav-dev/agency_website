@@ -8,7 +8,7 @@ const Hero = () => {
         <div className={styles.container}>
             <div className={styles.hero}>
                 <div>
-                    <h1 className={styles.heading}>Creating Artful <br/> Digital Experiences</h1>
+                    <h1 className={styles.heading}>Creating Artful <br className={styles.lineBreak}/> Digital Experiences</h1>
                     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
                         previewing layouts and visual mockups. </p>
                 </div>

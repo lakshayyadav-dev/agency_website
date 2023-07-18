@@ -33,6 +33,7 @@
 .hero div p {
     font-size: 18px;
     line-height: 28px;
+    font-weight: 300;
 }
 
 .servicesHolder {
@@ -50,4 +51,64 @@
 
 .servicesHolder hr {
     border-color: #4F4F4F;
+}
+
+@media screen and (max-width: 1300px) {
+    .heading {
+        font-size: 64px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .lineBreak {
+        display: none;
+    }
+
+    .heading {
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .mainImage {
+        width: 100vw;
+        position: inherit;
+    }
+
+    .hero div {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        gap: 4rem;
+    }
+    .heading {
+        font-size: 44px;
+    }
+    .hero div p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .services {
+        font-size: 16px;
+        padding: 0;
+    }
+    .servicesHolder {
+        gap: 1rem;
+    }
+
+    .servicesHolder hr {
+        width: 100vw;
+        position: relative;
+        left: -1.5rem;
+    }
 }

@@ -1,0 +1,38 @@
+.navbar {
+	width: 100%;
+	padding: 0 10rem;
+}
+
+.navbar ul {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+	list-style: none;
+}
+
+.logoText {
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+}
+
+.hide {
+	display: none !important;
+}
+
+.mobileNavbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mobileNavbar div {
+	margin-bottom: 8px;
+	width: 2rem;
+	height: 1px;
+	background-color: white;
+}

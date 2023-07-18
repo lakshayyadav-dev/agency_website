@@ -36,3 +36,23 @@
 	height: 1px;
 	background-color: white;
 }
+
+@media screen and (max-width: 960px) {
+	.navbar {
+		padding: 0 3rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		padding: 0;
+	}
+
+	.navbar ul{
+		display: none;
+	}
+
+	.mobileNavbar {
+		display: flex !important;
+	}
+}

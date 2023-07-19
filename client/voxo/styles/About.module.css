@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+    gap: 5rem;
+}
+
+.container hr {
+    height: 4rem;
+    border-color: #4F4F4F;
+}
+
+.container h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container p {
+    flex: 1.75;
+    font-size: 18px;
+    line-height: 28px;
+}

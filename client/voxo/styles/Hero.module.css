@@ -13,6 +13,7 @@
 .heading {
     font-size: 5rem;
     color: var(--heading-color);
+    text-transform: uppercase;
 }
 
 .mainImage {
@@ -51,6 +52,18 @@
 
 .servicesHolder hr {
     border-color: #4F4F4F;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.image {
+    object-fit: cover;
+    flex: 1;
+    width: 500px;
 }
 
 @media screen and (max-width: 1300px) {

@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 import image2 from "../public/image 2.png";
+import agency_1 from "../public/agency_1.png";
+import agency_2 from "../public/agency_2.png";
 
 const Hero = () => {
     return (
@@ -23,6 +25,11 @@ const Hero = () => {
                     <p>seo</p>
                 </div>
                 <hr />
+            </div>
+
+            <div className={styles.images}>
+                <Image src={agency_1} alt={"workspace"} className={styles.image}/>
+                <Image src={agency_2} alt={"workspace"} className={styles.image}/>
             </div>
         </div>
     );

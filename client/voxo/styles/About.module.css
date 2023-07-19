@@ -20,3 +20,26 @@
     font-size: 18px;
     line-height: 28px;
 }
+
+@media screen and (max-width: 1080px) {
+    .container p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .container hr {
+        height: 1px;
+        width: 100%;
+    }
+}

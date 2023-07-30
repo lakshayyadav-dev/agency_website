@@ -1,0 +1,58 @@
+.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 100%;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.heading {
+    font-size: 64px;
+}
+
+.link {
+    font-size: 24px;
+    background-color: var(--heading-color);
+    color: black;
+    padding: 1.5rem;
+    font-weight: 700;
+    transition: all 0.25s ease-in-out;
+}
+
+.link:hover {
+    padding: 0.75rem;
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px) {
+    .holder {
+        height: 50vw;
+    }
+    .heading {
+        font-size: 48px;
+    }
+    .link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .holder {
+        height: 70vw;
+    }
+    .heading {
+        font-size: 32px;
+    }
+    .link {
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .link:hover {
+        padding: 0.5rem;
+        transform: scale(1.25);
+    }
+}

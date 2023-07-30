@@ -58,3 +58,9 @@
         grid-template-columns: auto;
     }
 }
+
+@media screen and (max-width: 860px) {
+    .holder > h1 {
+        font-size: 28px;
+    }
+}

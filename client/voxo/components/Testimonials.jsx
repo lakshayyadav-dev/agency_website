@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Testimonials.module.css";
 import Image from "next/image";
-import dogpak from "../public/images/dogpak.png";
+import dogpak from "../public/images/story_image.png";
 import client from "../public/images/client.webp";
 
 const Testimonials = () => {

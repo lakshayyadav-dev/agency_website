@@ -2,27 +2,41 @@ import React from "react";
 import styles from "../styles/Work.module.css";
 import Image from "next/image";
 import Project from "@/components/Project";
-import agency_1 from "../public/agency_1.png";
-import agency_2 from "../public/agency_2.png";
+import dogpak from "../public/images/dogpak.png";
+import hoobank from "../public/images/hoobank_landingpage.png";
+import geritch_landingpage from "../public/images/gericht_landingpage.png";
+import client_website from "../public/images/client_website.webp";
 
 const Work = () => {
     return (
-        <div className={styles.holder}>
+        <section className={styles.holder} id="work">
             <h1>OUR WORK</h1>
             <div className={styles.projectsHolder}>
                 <Project
-                    coverImage={agency_1}
+                    coverImage={dogpak}
                     projectName={"Dogpak Landing page"}
-                    projectDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    projectDescription={"Landing page for DOGPAK. A k9 gear company based in Switzerland. The website is built with Next.js. The design focuses on conveying the message of the brand and building trust and to communicate effectively with the target audience."}
                 />
 
                 <Project
-                    coverImage={agency_2}
-                    projectName={"Dogpak Landing page"}
-                    projectDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    coverImage={hoobank}
+                    projectName={"Hoobank"}
+                    projectDescription={"This is a landing page for a fictional bank. The website is built with Next.js. It's responsive across all devices. The design focuses on building trust and conveying the bank's values."}
+                />
+
+<Project
+                    coverImage={geritch_landingpage}
+                    projectName={"Gericht Restaurant"}
+                    projectDescription={"This is a landing page for a fictional restaurant. The website is built with Next.js. The website has been crafted with SEO and performance in mind. The design focuses on the brand identity and conveys the restaurant's values."}
+                />
+
+<Project
+                    coverImage={client_website}
+                    projectName={"AI Website"}
+                    projectDescription={"This is an AI themed website for a client. The website is built with React. It is responsive across all devices. "}
                 />
             </div>
-        </div>
+        </section>
     );
 };
 

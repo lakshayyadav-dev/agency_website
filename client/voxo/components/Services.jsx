@@ -4,23 +4,23 @@ import styles from "../styles/Services.module.css";
 
 const Services = () => {
     return (
-        <div className={styles.container}>
+        <section className={styles.container} id="services">
             <Accordion
                 title={"DESIGN"}
                 number={"01"}
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+                description={"We believe that every project is an opportunity to weave magic on the digital canvas. With a team of artistic visionaries and modern design experts, we take pride in crafting bespoke solutions that breathe life into brands and tell captivating stories."}
             />
             <Accordion
                 title={"DEVELOPMENT"}
                 number={"02"}
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+                description={"Our development process is built on a foundation of collaboration and communication, ensuring that we understand your unique needs and objectives. From conceptualization to deployment, we meticulously craft websites and applications that not only meet your requirements but also exceed your expectations."}
             />
             <Accordion
                 title={"UI/UX"}
                 number={"03"}
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+                description={"From the first click to the final interaction, we prioritize the user journey, ensuring that every step is a delightful and engaging experience. Our iterative design process involves continuous refinement and feedback, allowing us to craft solutions that not only align with your brand identity but also resonate with your target audience."}
             />
-        </div>
+        </section>
     );
 };
 

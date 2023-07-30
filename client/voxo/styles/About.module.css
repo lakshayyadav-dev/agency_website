@@ -2,12 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 7.5rem 0;
     gap: 5rem;
 }
 
 .container hr {
-    height: 4rem;
+    height: 8rem;
     border-color: #4F4F4F;
 }
 

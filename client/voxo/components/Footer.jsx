@@ -3,21 +3,22 @@ import styles from "../styles/Footer.module.css"
 
 const Footer = () => {
     return (
-        <div className={styles.holder}>
+        <section className={styles.holder}>
             <div className={styles.companyInfo}>
                 <h1>VOXO</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p>Where Art Meets Web Development.</p>
+                <p className={styles.locationText}>Based in India</p>
             </div>
 
             <div className={styles.links}>
-                <a>home</a>
-                <a>about</a>
-                <a>services</a>
-                <a>work</a>
-                <a>testimonials</a>
-                <a>contact</a>
+                <a href="#hero">home</a>
+                <a href="#about">about</a>
+                <a href="#services">services</a>
+                <a href="#work">work</a>
+                <a href="#testimonials">testimonials</a>
+                <a href="#contact">contact</a>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,18 +1,17 @@
 import React from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
-import image2 from "../public/image 2.png";
-import agency_1 from "../public/agency_1.png";
-import agency_2 from "../public/agency_2.png";
+import image2 from "../public/images/image 2.png";
+import agency_1 from "../public/images/agency_1.png";
+import agency_2 from "../public/images/agency_2.png";
 
 const Hero = () => {
     return (
-        <div className={styles.container}>
+        <section className={styles.container} id="hero">
             <div className={styles.hero}>
                 <div>
                     <h1 className={styles.heading}>Creating Artful <br className={styles.lineBreak}/> Digital Experiences</h1>
-                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
-                        previewing layouts and visual mockups. </p>
+                    <p>Unleashing the synergy of creativity and coding, we are a web development atelier specializing in crafting artful digital experiences that captivate and inspire. </p>
                 </div>
                 <Image src={image2} className={styles.mainImage} alt={"abstract pattern"}/>
             </div>
@@ -31,7 +30,7 @@ const Hero = () => {
                 <Image src={agency_1} alt={"workspace"} className={styles.image}/>
                 <Image src={agency_2} alt={"workspace"} className={styles.image}/>
             </div>
-        </div>
+        </section>
     );
 };
 

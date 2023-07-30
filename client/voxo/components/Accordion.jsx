@@ -4,7 +4,7 @@ import React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "../styles/Accordion.module.css";
-import arrow from "../public/arrow.png";
+import arrow from "../public/images/arrow.png";
 import Image from "next/image";
 
 const Accordion = ({title, description, number}) => {

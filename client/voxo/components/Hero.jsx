@@ -5,6 +5,9 @@ import image2 from "../public/images/image 2.png";
 import agency_1 from "../public/images/agency_1.png";
 import agency_2 from "../public/images/agency_2.png";
 
+import website_image_1 from "../public/images/website_image_1.webp";
+import website_image_2 from "../public/images/website_image_2.webp";
+
 const Hero = () => {
     return (
         <section className={styles.container} id="hero">
@@ -27,8 +30,8 @@ const Hero = () => {
             </div>
 
             <div className={styles.images}>
-                <Image src={agency_1} alt={"workspace"} className={styles.image}/>
-                <Image src={agency_2} alt={"workspace"} className={styles.image}/>
+                <Image src={website_image_1} alt={"workspace"} className={styles.image}/>
+                <Image src={website_image_2} alt={"workspace"} className={styles.image}/>
             </div>
         </section>
     );

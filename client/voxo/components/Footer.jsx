@@ -7,7 +7,7 @@ const Footer = () => {
             <div className={styles.companyInfo}>
                 <h1>VOXO</h1>
                 <p>Where Art Meets Web Development.</p>
-                <p className={styles.locationText}>Based in India</p>
+                <p className={styles.locationText}>Based in New Delhi, India.</p>
             </div>
 
             <div className={styles.links}>

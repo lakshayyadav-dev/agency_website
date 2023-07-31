@@ -14,6 +14,14 @@
 	list-style: none;
 }
 
+.navbar a {
+    transition: all 0.1s ease;
+}
+
+.navbar a:hover {
+    color: var(--heading-color);
+}
+
 .logoText {
 	font-size: 1.5rem;
 	font-style: normal;

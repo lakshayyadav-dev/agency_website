@@ -25,6 +25,7 @@ const Hero = () => {
                     <p>design</p>
                     <p>development</p>
                     <p>seo</p>
+                    <p>ai</p>
                 </div>
                 <hr />
             </div>
